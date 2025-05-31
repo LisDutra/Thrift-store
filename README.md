@@ -20,7 +20,7 @@ Cada participante apresenta seu próprio estilo, com looks selecionados e links 
 
 ## 🔗 Acesse o projeto online
 
-👉 [Clique aqui para ver o site publicado](/<[NOME_DO_REPOSITORIO](https://github.com/LisDutra/Thrift-store.git)>/)
+👉 [Clique aqui para ver o site publicado](/<[THRIFT STORE](https://lisdutra.github.io/Thrift-store/)>/)
 
 ##  Apoie as meninas!
 
