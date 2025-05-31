@@ -1,29 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thrift Store</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       background-color: #5a1a2c;
       font-family: Arial, sans-serif;
-      text-align: center;
       color: #000;
       margin: 0;
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
 
     h1 {
       color: #ffcad4;
       margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .sobre {
+      background-color: #fff;
+      color: #5a1a2c;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      text-align: center;
+      margin: 0 auto 40px auto;
+    }
+
+    .sobre h2, .sobre h3 {
+      color: #5a1a2c;
+    }
+
+    .sobre ul {
+      padding-left: 0;
+      list-style: none;
     }
 
     .container {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1000px;
     }
 
     .girl {
@@ -31,22 +60,21 @@
       border: 2px solid #ffcad4;
       border-radius: 10px;
       padding: 20px;
-      width: 250px;
-      box-sizing: border-box;
+      width: 220px;
+      color: #fff;
+      flex: 1 1 200px;
     }
 
     .girl h2 {
       margin: 10px 0 5px;
-      color: #000;
+      color: #ffcad4;
     }
 
     .girl p {
       margin: 0 0 10px;
-      color: #000;
     }
 
     .girl a {
-      color: #ffcad4;
       font-weight: bold;
       text-decoration: none;
       display: inline-block;
@@ -67,38 +95,71 @@
       border-radius: 8px;
       margin-bottom: 10px;
     }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
 </head>
+
 <body>
   <h1>Thrift Store</h1>
 
+  <!-- Apresentação centralizada -->
+  <section class="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>Este é um projeto de empreendedorismo realizado por alunas do 9º ano com o objetivo de estimular a criatividade, economia circular e consumo consciente.</p>
+    <p>Cada aluna escolheu um estilo para representar e está vendendo roupas do próprio guarda-roupa com dicas de moda!</p>
+
+    <h3>Estilos das Meninas</h3>
+    <ul>
+      <li><strong>Mylena</strong> – Estilo Casual</li>
+      <li><strong>Gabriela</strong> – Estilo Ana Castela</li>
+      <li><strong>Lais</strong> – Fashionista</li>
+      <li><strong>Lis</strong> – Estilo Elegante</li>
+    </ul>
+
+    <h3>Objetivos do Projeto</h3>
+    <ul>
+      <li>Incentivar o reaproveitamento de roupas</li>
+      <li>Desenvolver noções de marketing, web e moda</li>
+      <li>Trabalhar colaboração em grupo e protagonismo juvenil</li>
+    </ul>
+
+    <p><em>Feito com 💜 pelas alunas do 9º ano.</em></p>
+  </section>
+
+  <!-- Cards das meninas -->
   <div class="container">
     <div class="girl">
-      <img src="https://via.placeholder.com/250x300.png?text=Look+Mylena" alt="Look Mylena">
+      <img src="https://i.imgur.com/n8ZfXkJ.jpg" alt="Look da Mylena">
       <h2>Mylena</h2>
       <p>Estilo Casual</p>
-      <a href="https://s.shopee.com.br/4VQg6hnEOI?share_channel_code=1">Ver peças</a>
+      <a href="https://s.shopee.com.br/4VQg6hnEOI?share_channel_code=1" target="_blank">Ver peças</a>
     </div>
 
     <div class="girl">
-      <img src="https://via.placeholder.com/250x300.png?text=Look+Gabriela" alt="Look Gabriela">
+      <img src="https://i.imgur.com/vxP0X0O.jpg" alt="Look da Gabriela">
       <h2>Gabriela</h2>
       <p>Estilo Ana Castela</p>
-      <a href="https://s.shopee.com.br/8pZfGygj9j?share_channel_code=1">Ver peças</a>
+      <a href="https://s.shopee.com.br/8pZfGygj9j?share_channel_code=1" target="_blank">Ver peças</a>
     </div>
 
     <div class="girl">
-      <img src="https://via.placeholder.com/250x300.png?text=Look+Lais" alt="Look Lais">
+      <img src="https://i.imgur.com/QID7HyM.jpg" alt="Look da Lais">
       <h2>Lais</h2>
       <p>Fashionista</p>
-      <a href="https://s.shopee.com.br/3qAzK6w5Bt?share_channel_code=1">Ver peças</a>
+      <a href="https://s.shopee.com.br/3qAzK6w5Bt?share_channel_code=1" target="_blank">Ver peças</a>
     </div>
 
     <div class="girl">
-      <img src="https://via.placeholder.com/250x300.png?text=Look+Lis" alt="Look Lis">
+      <img src="https://i.imgur.com/sXeW4Tf.jpg" alt="Look da Lis">
       <h2>Lis</h2>
       <p>Estilo Elegante</p>
-      <a href="https://s.shopee.com.br/10qnvtf35J?share_channel_code=1">Ver peças</a>
+      <a href="https://s.shopee.com.br/10qnvtf35J?share_channel_code=1" target="_blank">Ver peças</a>
     </div>
   </div>
 </body>
