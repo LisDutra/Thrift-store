@@ -21,3 +21,8 @@ Cada participante apresenta seu próprio estilo, com looks selecionados e links 
 ## 🔗 Acesse o projeto online
 
 👉 [Clique aqui para ver o site publicado](/<[NOME_DO_REPOSITORIO](https://github.com/LisDutra/Thrift-store.git)>/)
+
+##  Apoie as meninas!
+
+Cada look tem um link com sugestões de roupas da Shopee. Ao comprar por esses links, você ajuda cada participante a desenvolver responsabilidade, estilo e geração de renda criativa.
+
